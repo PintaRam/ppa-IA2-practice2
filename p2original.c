@@ -21,11 +21,11 @@ void output(int a , int b, int c, int isscalene)
 {
   if(isscalene==0)
  {
- printf("triangle is scalene\n");
+ printf("triangle is scalene");
  }
   else
   {
-  printf("triangle is not a scalene \n");
+  printf("triangle is not a scalene ");
   }
 }
 int main()
