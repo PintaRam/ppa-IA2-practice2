@@ -4,9 +4,11 @@ int input_side()
   int n;
   printf("enter the value\n");
   scanf("%d",&n);
+  return n;
 }
 int check_scalene(int a,int b,int c)
-{ int result;
+{ 
+   int result=0;
     if(a==b || b==c || a==c)
     {
       result=1;
@@ -21,11 +23,11 @@ void output(int a , int b, int c, int isscalene)
 {
   if(isscalene==0)
  {
- printf("triangle is scalene");
+ printf("triangle is scalene\n");
  }
   else
   {
-  printf("triangle is not a scalene ");
+  printf("triangle is not a scalene\n ");
   }
 }
 int main()
